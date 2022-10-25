@@ -1,15 +1,19 @@
-#define USINGMOUSE
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
+    public bool usingMouse = true;
     public Transform playerBody;
     public float sensitivity = 1000f;
 
-#if USINGMOUSE
     float xRotation = 0f;
+    float yRotation;
+
+    // touch control
+    Vector3 firstPoint, secondPoint;
+    float tempXrotation, tempYrotation;
 
     // Start is called before the first frame update
     void Start()
@@ -20,25 +24,24 @@ public class MouseLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
+        if (usingMouse)
+        {
+            float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+            float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
 
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+            xRotation -= mouseY;
+            xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        playerBody.Rotate(Vector3.up * mouseX);
+            transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+            playerBody.Rotate(Vector3.up * mouseX);
+        }
+        else
+        {
+            TouchControll();
+            Rotation();
+        }
     }
 
-#else
-    Vector3 firstPoint, secondPoint;
-    float xRotation, yRotation;
-    float tempXrotation, tempYrotation;
-    void Update()
-    {
-        TouchControll();
-        Rotation();
-    }
     public void TouchControll()
     {
         if (Input.touchCount > 0)
@@ -69,5 +72,4 @@ public class MouseLook : MonoBehaviour
         playerBody.transform.rotation = Quaternion.Euler(Vector3.up * yRotation);
         transform.localRotation = Quaternion.Euler(-xRotation, 0f, 0f);
     }
-#endif
 }
