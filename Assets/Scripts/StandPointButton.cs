@@ -9,12 +9,12 @@ public class StandPointButton : MonoBehaviour
     private Transform targetTransform;
 
     private RectTransform rectTransform;
-    private Image image;
+    //private Image image;
 
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
-        image = GetComponent<Image>();
+        //image = GetComponent<Image>();
     }
 
     // Update is called once per frame
