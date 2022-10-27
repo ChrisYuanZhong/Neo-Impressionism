@@ -58,9 +58,9 @@ Material:
     - _Depth: 0.5
     - _Displacement_Multiplier: 0
     - _Distance: 1.54
-    - _Edge_Amount: 8.8
-    - _Edge_Cutoff: 5.2
-    - _Edge_Scale: 217.91
+    - _Edge_Amount: 6.32
+    - _Edge_Cutoff: 9
+    - _Edge_Scale: 200
     - _Edge_Speed: 0.16
     - _Metallic: 0.971
     - _Normal_Strength: 1
@@ -69,7 +69,7 @@ Material:
     - _Refraction_Scale: 1
     - _Refraction_Speed: 0
     - _Refraction_Strength: 0
-    - _Ripple_Density: 200
+    - _Ripple_Density: 199.91
     - _Ripple_Slimness: 9
     - _Strength: 0.26
     - _Water_Tiling_Speed: 0.5
