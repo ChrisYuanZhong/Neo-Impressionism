@@ -23,8 +23,6 @@ Material:
   m_Name: Cartoon_Water
   m_Shader: {fileID: -6465566751694194690, guid: 1b45afbe1f0c4cb4f9e6a4a79613784d,
     type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -33,7 +31,6 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -54,26 +51,26 @@ Material:
     - BOOLEAN_B7922ADA: 0
     - ENUM_6B99C3BA: 0
     - Vector1_3A4931B2: 124.5
-    - Vector1_A9532B28: 89.4
+    - Vector1_A9532B28: 10
     - Vector1_F1E786B1: 6.1
     - _: 1
     - _Caustic_Depth: 9.54
     - _Depth: 0.5
-    - _Displacement_Multiplier: 0.34
+    - _Displacement_Multiplier: 0
     - _Distance: 1.59
-    - _Edge_Amount: 2.2
+    - _Edge_Amount: 5
     - _Edge_Cutoff: 4.8
     - _Edge_Scale: 29
     - _Edge_Speed: 1
-    - _Metallic: 0.971
-    - _Normal_Strength: 1
+    - _Metallic: 0
+    - _Normal_Strength: 0.24
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Refraction_Scale: 28.6
-    - _Refraction_Speed: 0.91
-    - _Refraction_Strength: 0.0064
-    - _Ripple_Density: 8.14
-    - _Ripple_Slimness: 4.75
+    - _Refraction_Speed: 0
+    - _Refraction_Strength: 0
+    - _Ripple_Density: 500
+    - _Ripple_Slimness: 8
     - _Strength: 0.26
     - _Water_Tiling_Speed: 0.84
     m_Colors:
