@@ -56,7 +56,9 @@ Material:
     - _: 1
     - _Caustic_Depth: 9.54
     - _Depth: 0.5
-    - _Displacement_Multiplier: 0
+
+    - _Displacement_Multiplier: 0.25
+
     - _Distance: 1.54
     - _Edge_Amount: 8.8
     - _Edge_Cutoff: 5.2

@@ -24,7 +24,6 @@ public class Player : MonoBehaviour
                 if (hit.transform.gameObject.tag == "StandPoint")
                 {
                     transform.position = hit.transform.position;
-                    //hit.transform.gameObject.SetActive(false);
 
                 }
             }
