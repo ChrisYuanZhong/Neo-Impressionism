@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8f1b0c1c5bddacc4f88baa3f54646d82
+guid: 4fb959e983fb0eb4a9ae8cdc23540540
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,7 +7,7 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material #2
+      name: Sphere003SG
     second: {fileID: 2100000, guid: 54c442ca12258c54d8289c9c198dd4fc, type: 2}
   materials:
     materialImportMode: 2
@@ -93,7 +93,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.01
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
