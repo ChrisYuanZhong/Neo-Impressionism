@@ -2856,7 +2856,7 @@ Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 4328640925545322572, guid: 932ac7ac3cd2ab94fa6f43a96e1c15d9,
     type: 3}
-  m_PrefabInstance: {fileID: 379872136}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999100886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
