@@ -5,10 +5,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public float t = 0.1f;
+    public float speed = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -23,6 +26,10 @@ public class Player : MonoBehaviour
             {
                 if (hit.transform.gameObject.tag == "StandPoint")
                 {
+                    //Vector3 a = transform.position;
+                    //Vector3 b = hit.transform.position;
+                    //transform.position = Vector3.Lerp(a, b, t);
+                    //transform.position = Vector3.MoveTowards(a, Vector3.Lerp(a, b, t), speed);
                     transform.position = hit.transform.position;
 
                 }
