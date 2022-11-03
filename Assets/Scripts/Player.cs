@@ -2,16 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public float t = 0.1f;
     public float speed = 1f;
+
+    public bool move = false;
+
+    private Transform destination;
+
+    GameObject[] POI;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        POI = GameObject.FindGameObjectsWithTag("StandPoint");
     }
 
     // Update is called once per frame
@@ -26,16 +32,28 @@ public class Player : MonoBehaviour
             {
                 if (hit.transform.gameObject.tag == "StandPoint")
                 {
-                    //Vector3 a = transform.position;
-                    //Vector3 b = hit.transform.position;
-                    //transform.position = Vector3.Lerp(a, b, t);
-                    //transform.position = Vector3.MoveTowards(a, Vector3.Lerp(a, b, t), speed);
-                    transform.position = hit.transform.position;
+                    destination = hit.transform;
+                    move = true;
+                    foreach(GameObject go in POI)
+                    {
+                        go.SetActive(false);
+                    }
 
                 }
             }
         }
 
-        //if (Input.GetKeyDown(KeyCode.W))
+        if (move == true)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, destination.position, 10f * Time.deltaTime);
+            if(transform.position.x == destination.position.x && transform.position.z == destination.position.z)
+            {
+                move = false;
+                foreach (GameObject go in POI)
+                {
+                    go.SetActive(true);
+                }
+            }
+        }
     }
 }
