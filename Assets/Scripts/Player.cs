@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.Rendering.DebugUI;
 
 public class Player : MonoBehaviour
 {
-    public float speed = 1f;
+    public float speed = 0.8f;
+
+    public Vector3 velocity = Vector3.zero;
 
     public bool move = false;
 
@@ -45,8 +48,11 @@ public class Player : MonoBehaviour
 
         if (move == true)
         {
-            transform.position = Vector3.MoveTowards(transform.position, destination.position, 10f * Time.deltaTime);
-            if(transform.position.x == destination.position.x && transform.position.z == destination.position.z)
+            transform.position = Vector3.SmoothDamp(transform.position, destination.position, ref velocity, speed);
+            //transform.position = Vector3.Lerp(transform.position, destination.position, 2 * Time.deltaTime);
+            //transform.position = Vector3.MoveTowards(transform.position, destination.position, 10f * Time.deltaTime);
+            //if ((float)System.Math.Round(transform.position.x, 1) == (float)System.Math.Round(destination.position.x, 1) && (float)System.Math.Round(transform.position.z, 1) == (float)System.Math.Round(destination.position.z, 1))
+            if ((int)transform.position.x == (int)destination.position.x && (int)transform.position.z == (int)destination.position.z)
             {
                 move = false;
                 foreach (GameObject go in POI)
