@@ -3216,7 +3216,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Range",
     "m_StageCapability": 3,
-    "m_Value": 0.5099999904632568,
+    "m_Value": 0.5699999928474426,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -3600,7 +3600,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 0.6499999761581421,
+        "x": 0.800000011920929,
         "y": 2.0,
         "z": 2.0,
         "w": 2.0
@@ -3738,7 +3738,7 @@
     "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
-        "y": 0.1187283992767334,
+        "y": 0.38052797317504885,
         "z": 1.0
     },
     "m_DefaultValue": {
@@ -5317,7 +5317,7 @@
     "m_StageCapability": 3,
     "m_Value": {
         "x": 1.0,
-        "y": 0.7841839790344238,
+        "y": 0.8002132177352905,
         "z": 0.0
     },
     "m_DefaultValue": {
@@ -5444,7 +5444,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Fuzziness",
     "m_StageCapability": 3,
-    "m_Value": 1.0,
+    "m_Value": 0.5600000023841858,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -6532,7 +6532,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Fuzziness",
     "m_StageCapability": 3,
-    "m_Value": 0.75,
+    "m_Value": 0.6000000238418579,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
