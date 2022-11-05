@@ -6,7 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - StandPoint
-  - Pickup
+  - Piece
   layers:
   - Default
   - TransparentFX
