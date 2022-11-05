@@ -23,13 +23,15 @@ Material:
   m_Name: MI_Sparkle
   m_Shader: {fileID: -6465566751694194690, guid: f23939efbc38a0d4d9288e7e098cae61,
     type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _ALPHATEST_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -60,9 +62,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 1
+    - _Blend: 2
+    - _CastShadows: 1
+    - _Cull: 0
+    - _DstBlend: 0
     - _Float: 10000
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
     m_Colors:
     - _scaling: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
