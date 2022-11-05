@@ -12384,9 +12384,10 @@ GameObject:
   - component: {fileID: 1178827574}
   - component: {fileID: 1178827573}
   - component: {fileID: 1178827572}
+  - component: {fileID: 1178827576}
   m_Layer: 0
   m_Name: Pickup
-  m_TagString: Untagged
+  m_TagString: Pickup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12463,13 +12464,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178827571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 501.7, y: 24.82, z: 469.76}
+  m_LocalPosition: {x: 501.7, y: 24.454, z: 469.76}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1178827576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178827571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94837011a47a892489801a7507ddbaf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  destination: {fileID: 1718425359}
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!4 &1182439229 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f1320a5c0f7d37246b70dc089e1a4899,
@@ -16503,7 +16519,7 @@ PrefabInstance:
     - target: {fileID: 2615029770714217095, guid: b4a5550e68b36ca49ab1df9d9c49897a,
         type: 3}
       propertyPath: speed
-      value: 0.8
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 2615029771006078713, guid: b4a5550e68b36ca49ab1df9d9c49897a,
         type: 3}
@@ -19301,7 +19317,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718425356}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
