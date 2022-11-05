@@ -2,15 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pickup : MonoBehaviour
+public class StatuePiece : MonoBehaviour
 {
     public float speed = 0.6f;
 
     public Transform destination;
 
+    private Transform originalTransform;
+
     private bool isPickedUp = false;
 
+    private bool isGettingBack = false;
+
     public Vector3 velocity = Vector3.zero;
+
+    private IEnumerator Floating()
+    {
+        yield return new WaitForSeconds(2);
+
+        GetBack();
+    }
 
     private IEnumerator StopMoving()
     {
@@ -24,17 +35,25 @@ public class Pickup : MonoBehaviour
         if (!isPickedUp)
         {
             isPickedUp = true;
-            StartCoroutine(StopMoving());
+            StartCoroutine(Floating());
             return true;
         }
 
         return false;
     }
 
+    public bool GetBack()
+    {
+        isPickedUp = false;
+        isGettingBack = true;
+        StartCoroutine(StopMoving());
+        return true;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        originalTransform = transform;
     }
 
     // Update is called once per frame
@@ -53,6 +72,13 @@ public class Pickup : MonoBehaviour
             transform.rotation = destination.rotation;
             transform.localScale = destination.localScale;
             Destroy(this);*/
+        }
+
+        if (isGettingBack)
+        {
+            transform.position = Vector3.SmoothDamp(transform.position, originalTransform.position, ref velocity, speed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, originalTransform.rotation, 2f * Time.deltaTime);
+            transform.localScale = Vector3.Lerp(transform.localScale, originalTransform.localScale, 2f * Time.deltaTime);
         }
     }
 }

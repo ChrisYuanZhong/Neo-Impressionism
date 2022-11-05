@@ -9,9 +9,11 @@ public class Player : MonoBehaviour
 {
     public float speed = 1.5f;
 
-    public Vector3 velocity = Vector3.zero;
+    public int collectedPieces = 0;
 
-    public bool move = false;
+    private Vector3 velocity = Vector3.zero;
+
+    private bool move = false;
 
     private Transform destination;
 
@@ -46,7 +48,19 @@ public class Player : MonoBehaviour
 
                 if (hit.transform.gameObject.tag == "Piece")
                 {
-                    hit.transform.gameObject.GetComponent<Pickup>().PickedUP();
+                    if (hit.transform.gameObject.GetComponent<Pickup>().PickedUP() == true)
+                    {
+                        collectedPieces++;
+                    }
+                }
+
+                if (hit.transform.gameObject.name == "Glasses Case")
+                {
+                    if (collectedPieces == 3)
+                    {
+                        // Collect the Glasses
+                        Destroy(hit.transform.gameObject);
+                    }
                 }
             }
         }
