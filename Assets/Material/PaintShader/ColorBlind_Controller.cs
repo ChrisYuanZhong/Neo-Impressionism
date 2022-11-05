@@ -14,10 +14,10 @@ public class ColorBlind_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        colorblind = false;
+        colorblind = true;
         foreach (Material mat in mats)
         {
-            mat.SetFloat("_Color_blindness", 0);
+            mat.SetFloat("_Color_blindness", 1);
 
         }
     }
