@@ -34,6 +34,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_114c032cb35945bb864605deca5d07b0_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b681232af5ef90c41a0df74c33d8ee74, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -72,7 +76,7 @@ Material:
     - _Refraction_Strength: 0.0047
     - _Ripple_Density: 5
     - _Ripple_Slimness: 5
-    - _Water_Tiling_Speed: 1
+    - _Water_Tiling_Speed: 10
     m_Colors:
     - Vector2_CFDAA394: {r: 0.5, g: 0.01, b: 0, a: 0}
     - _Deep_Water_Color: {r: 0.14061944, g: 0.34385768, b: 0.3773585, a: 0}

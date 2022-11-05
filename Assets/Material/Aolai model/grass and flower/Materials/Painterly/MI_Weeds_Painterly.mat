@@ -109,7 +109,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Color_blindness: 0
+    - _Color_blindness: 1
     - _Cull: 2
     - _Cutoff: 0.696
     - _DetailAlbedoMapScale: 1
@@ -137,7 +137,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseTiling: {r: 2, g: 2, b: 0, a: 0}
+    - _BaseTiling: {r: 3.5, g: 3.5, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorMult: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
