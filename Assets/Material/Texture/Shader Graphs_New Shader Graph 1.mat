@@ -73,7 +73,7 @@ Material:
     - _OpacityStrength: 0.45
     - _QueueControl: 1
     - _QueueOffset: 0
-    - _WindSpeed: 0.01
+    - _WindSpeed: 0.05
     m_Colors:
     - _CloudColor: {r: 0.8490566, g: 0.71563804, b: 0.5900676, a: 1}
     - _Luminace_Gain: {r: 0.9150943, g: 0.62688607, b: 0.55826503, a: 1}
