@@ -62,6 +62,14 @@ public class Player : MonoBehaviour
                         Destroy(hit.transform.gameObject);
                     }
                 }
+
+                if (hit.transform.gameObject.name == "Statue Piece")
+                {
+                    if (hit.transform.gameObject.GetComponent<StatuePiece>().PickedUP() == true)
+                    {
+                        // Collect the Lever
+                    }
+                }
             }
         }
 

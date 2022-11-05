@@ -45,14 +45,6 @@ public class Pickup : MonoBehaviour
             transform.position = Vector3.SmoothDamp(transform.position, destination.position, ref velocity, speed);
             transform.rotation = Quaternion.Lerp(transform.rotation, destination.rotation, 2f * Time.deltaTime);
             transform.localScale = Vector3.Lerp(transform.localScale, destination.localScale, 2f * Time.deltaTime);
-            /*transform.position = Vector3.Lerp(transform.position, destination.position, speed * Time.deltaTime);
-            transform.rotation = Quaternion.Lerp(transform.rotation, destination.rotation, speed * Time.deltaTime);
-            transform.localScale = Vector3.Lerp(transform.localScale, destination.localScale, speed * Time.deltaTime);*/
-
-            /*transform.position = destination.position;
-            transform.rotation = destination.rotation;
-            transform.localScale = destination.localScale;
-            Destroy(this);*/
         }
     }
 }

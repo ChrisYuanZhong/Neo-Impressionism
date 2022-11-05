@@ -8,9 +8,13 @@ public class StatuePiece : MonoBehaviour
 
     public Transform destination;
 
-    private Transform originalTransform;
+    private Vector3 originalPosition;
+
+    private Quaternion originalRotation;
 
     private bool isPickedUp = false;
+
+    private bool isFloating = false;
 
     private bool isGettingBack = false;
 
@@ -35,6 +39,7 @@ public class StatuePiece : MonoBehaviour
         if (!isPickedUp)
         {
             isPickedUp = true;
+            isFloating = true;
             StartCoroutine(Floating());
             return true;
         }
@@ -44,7 +49,7 @@ public class StatuePiece : MonoBehaviour
 
     public bool GetBack()
     {
-        isPickedUp = false;
+        isFloating = false;
         isGettingBack = true;
         StartCoroutine(StopMoving());
         return true;
@@ -53,32 +58,24 @@ public class StatuePiece : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        originalTransform = transform;
+        originalPosition = transform.position;
+        originalRotation = transform.rotation;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isPickedUp)
+        if (isFloating)
         {
             transform.position = Vector3.SmoothDamp(transform.position, destination.position, ref velocity, speed);
             transform.rotation = Quaternion.Lerp(transform.rotation, destination.rotation, 2f * Time.deltaTime);
             transform.localScale = Vector3.Lerp(transform.localScale, destination.localScale, 2f * Time.deltaTime);
-            /*transform.position = Vector3.Lerp(transform.position, destination.position, speed * Time.deltaTime);
-            transform.rotation = Quaternion.Lerp(transform.rotation, destination.rotation, speed * Time.deltaTime);
-            transform.localScale = Vector3.Lerp(transform.localScale, destination.localScale, speed * Time.deltaTime);*/
-
-            /*transform.position = destination.position;
-            transform.rotation = destination.rotation;
-            transform.localScale = destination.localScale;
-            Destroy(this);*/
         }
 
         if (isGettingBack)
         {
-            transform.position = Vector3.SmoothDamp(transform.position, originalTransform.position, ref velocity, speed);
-            transform.rotation = Quaternion.Lerp(transform.rotation, originalTransform.rotation, 2f * Time.deltaTime);
-            transform.localScale = Vector3.Lerp(transform.localScale, originalTransform.localScale, 2f * Time.deltaTime);
+            transform.position = Vector3.SmoothDamp(transform.position, originalPosition, ref velocity, speed);
+            transform.rotation = Quaternion.Lerp(transform.rotation, originalRotation, 2f * Time.deltaTime);
         }
     }
 }
