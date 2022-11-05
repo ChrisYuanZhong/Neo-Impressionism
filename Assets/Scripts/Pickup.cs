@@ -8,7 +8,7 @@ public class Pickup : MonoBehaviour
 
     public Transform destination;
 
-    private bool isPickedUp = false;
+    public bool isPickedUp = false;
 
     public Vector3 velocity = Vector3.zero;
 
@@ -24,6 +24,7 @@ public class Pickup : MonoBehaviour
         if (!isPickedUp)
         {
             isPickedUp = true;
+            GetComponent<Collider>().enabled = false;
             StartCoroutine(StopMoving());
             return true;
         }

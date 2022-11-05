@@ -40,6 +40,7 @@ public class StatuePiece : MonoBehaviour
         {
             isPickedUp = true;
             isFloating = true;
+            GetComponent<Collider>().enabled = false;
             StartCoroutine(Floating());
             return true;
         }

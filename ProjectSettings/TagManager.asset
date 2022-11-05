@@ -6,7 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - StandPoint
-  - Piece
+  - Glasses
   layers:
   - Default
   - TransparentFX
