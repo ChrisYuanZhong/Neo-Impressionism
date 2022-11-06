@@ -7,7 +7,7 @@ using static UnityEngine.Rendering.DebugUI;
 
 public class Player : MonoBehaviour
 {
-    public float speed = 1.5f;
+    public float speed = 0.8f;
 
     public int collectedPieces = 0;
 
@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit, 100.0f))
             {
-                if (hit.transform.gameObject.tag == "StandPoint")
+                if (hit.transform.gameObject.CompareTag("StandPoint"))
                 {
                     destination = hit.transform;
                     move = true;
@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
 
                 }
 
-                if (hit.transform.gameObject.tag == "Piece")
+                if (hit.transform.gameObject.CompareTag("Glasses"))
                 {
                     if (hit.transform.gameObject.GetComponent<Pickup>().PickedUP() == true)
                     {
