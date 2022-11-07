@@ -70,7 +70,7 @@ Material:
     m_Floats:
     - _ClodFill: 0.1
     - _Contrast: 1
-    - _OpacityStrength: 0.45
+    - _OpacityStrength: 0.7
     - _QueueControl: 1
     - _QueueOffset: 0
     - _WindSpeed: 0.05
