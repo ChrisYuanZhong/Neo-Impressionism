@@ -3009,6 +3009,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d2be245966d6124c96e9779553eb513, type: 3}
+--- !u!1 &225397347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4906263530030631245, guid: db8c3969099d90140b5fc396c067512c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1420004106}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &229803310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3804,6 +3810,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.6
   destination: {fileID: 693839004}
+  lightbeam: {fileID: 225397347}
+  lever: {fileID: 1506329563}
   velocity: {x: 0, y: 0, z: 0}
 --- !u!64 &299246339
 MeshCollider:

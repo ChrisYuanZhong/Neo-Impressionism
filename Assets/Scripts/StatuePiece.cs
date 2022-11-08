@@ -8,7 +8,9 @@ public class StatuePiece : MonoBehaviour
 
     public Transform destination;
 
-    public GameObject Lightbeam;
+    public GameObject lightbeam;
+
+    public GameObject lever;
 
     private Vector3 originalPosition;
    
@@ -26,8 +28,12 @@ public class StatuePiece : MonoBehaviour
 
     private IEnumerator Floating()
     {
+        lightbeam.GetComponent<Lightbeam_Controller>().on = true;
+        
         yield return new WaitForSeconds(2);
 
+        lever.gameObject.SetActive(true);
+        lightbeam.GetComponent<Lightbeam_Controller>().on = false;
         GetBack();
     }
 
@@ -46,6 +52,7 @@ public class StatuePiece : MonoBehaviour
             isFloating = true;
             GetComponent<Collider>().enabled = false;
             StartCoroutine(Floating());
+
             return true;
         }
 
