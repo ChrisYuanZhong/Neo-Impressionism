@@ -29,7 +29,7 @@ public class Cutscene : MonoBehaviour
     {
         if (playScene)
         {
-            //Destroy(cam.GetComponent<MouseLook>());
+            Destroy(cam.GetComponent<MouseLook>());
             StartY = cam.transform.rotation.y;
 
             StartX = 0;
