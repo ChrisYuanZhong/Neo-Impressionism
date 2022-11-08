@@ -8,7 +8,7 @@ using static UnityEngine.Rendering.DebugUI;
 public class Player : MonoBehaviour
 {
     public float speed = 0.8f;
-
+    public GameObject fade;
     public int collectedPieces = 0;
 
     private Vector3 velocity = Vector3.zero;
@@ -69,6 +69,13 @@ public class Player : MonoBehaviour
                     {
                         // Collect the Lever
                     }
+                }
+
+                if (hit.transform.gameObject.name == "Lever Base")
+                {
+                    fade.GetComponent<Fade>().FadeShow();
+                    print("1");
+
                 }
             }
         }
