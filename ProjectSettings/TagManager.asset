@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CinemachineTarget
   - StandPoint
+  - Glasses
+  - Region
   layers:
   - Default
   - TransparentFX
