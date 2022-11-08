@@ -75,7 +75,7 @@ Material:
     - _QueueOffset: 0
     - _WindSpeed: 0.01
     m_Colors:
-    - _CloudColor: {r: 0.8490566, g: 0.71563804, b: 0.5900676, a: 1}
-    - _Luminace_Gain: {r: 0.9150943, g: 0.62688607, b: 0.55826503, a: 1}
-    - _RimColor: {r: 2.7750607, g: 1.3840557, b: 0.043632746, a: 0.99607843}
+    - _CloudColor: {r: 1, g: 0.8317904, b: 0.3915094, a: 1}
+    - _Luminace_Gain: {r: 1, g: 0.8787473, b: 0, a: 1}
+    - _RimColor: {r: 2.2865272, g: 2.0639014, b: 0.4853478, a: 0.99607843}
   m_BuildTextureStacks: []
