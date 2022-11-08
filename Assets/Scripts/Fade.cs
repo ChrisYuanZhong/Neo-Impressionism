@@ -37,7 +37,7 @@ public class Fade : MonoBehaviour
     {
         regionName.CrossFadeAlpha(1, 0.5f, false);
         fadeTime += Time.deltaTime;
-        if(regionName.color.a == 1 && fadeTime > 5.5f)
+        if(regionName.color.a == 1 && fadeTime > 5f)
         {
             fadingIn = false;
             fadeTime = 0;

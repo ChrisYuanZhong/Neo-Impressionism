@@ -9,6 +9,8 @@ public class StatuePiece : MonoBehaviour
     public Transform destination;
 
     private Vector3 originalPosition;
+   
+    private Vector3 originalScale;
 
     private Quaternion originalRotation;
 
@@ -61,6 +63,7 @@ public class StatuePiece : MonoBehaviour
     {
         originalPosition = transform.position;
         originalRotation = transform.rotation;
+        originalScale = transform.localScale;
     }
 
     // Update is called once per frame
@@ -77,6 +80,7 @@ public class StatuePiece : MonoBehaviour
         {
             transform.position = Vector3.SmoothDamp(transform.position, originalPosition, ref velocity, speed);
             transform.rotation = Quaternion.Lerp(transform.rotation, originalRotation, 2f * Time.deltaTime);
+            transform.localScale = Vector3.Lerp(transform.localScale, originalScale, 2f * Time.deltaTime);
         }
     }
 }
