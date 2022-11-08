@@ -8,7 +8,9 @@ public class Fade : MonoBehaviour
 {
     public TextMeshProUGUI regionName;
 
-    private float fadeTime;
+
+
+    public float fadeTime;
     private bool fadingIn;
 
     // Start is called before the first frame update
