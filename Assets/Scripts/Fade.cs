@@ -33,7 +33,7 @@ public class Fade : MonoBehaviour
         }
     }
 
-    void FadeIn()
+    public void FadeIn()
     {
         regionName.CrossFadeAlpha(1, 0.5f, false);
         fadeTime += Time.deltaTime;
@@ -52,5 +52,12 @@ public class Fade : MonoBehaviour
             fadingIn = true;
             regionName.text = other.name;
         }
+    }
+
+    public void FadeShow()
+    {
+         fadingIn = true;
+            regionName.text = "222222";
+
     }
 }
