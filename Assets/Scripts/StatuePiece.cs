@@ -8,6 +8,8 @@ public class StatuePiece : MonoBehaviour
 
     public Transform destination;
 
+    public GameObject Lightbeam;
+
     private Vector3 originalPosition;
    
     private Vector3 originalScale;

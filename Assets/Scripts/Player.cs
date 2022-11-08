@@ -70,6 +70,11 @@ public class Player : MonoBehaviour
                         // Collect the Lever
                     }
                 }
+
+                if (hit.transform.gameObject.name == "Lever Base")
+                {
+                    // Tapped the lever base
+                }
             }
         }
 
