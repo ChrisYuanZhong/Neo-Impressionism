@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MI_Lever
+  m_Name: MI_Door Frame
   m_Shader: {fileID: -6465566751694194690, guid: 68c4d37d479ba99479dff00b36748e7c,
     type: 3}
   m_ValidKeywords: []
@@ -35,7 +35,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseAlbedo:
-        m_Texture: {fileID: 2800000, guid: 68f57d6c9aaf36749af1bea977bca384, type: 3}
+        m_Texture: {fileID: 2800000, guid: b72d35ef0dd91c944a670800a9127aa7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -43,7 +43,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseNormal:
-        m_Texture: {fileID: 2800000, guid: e01bb285ec5a3ab44b49b74febe62f06, type: 3}
+        m_Texture: {fileID: 2800000, guid: bfba91a73429d854881bed249595a67e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -144,7 +144,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseTiling: {r: 4, g: 4, b: 0, a: 0}
+    - _BaseTiling: {r: 14, g: 14, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
