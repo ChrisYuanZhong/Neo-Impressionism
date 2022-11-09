@@ -20,12 +20,12 @@ public class Player : MonoBehaviour
 
     private Transform destination;
 
-    GameObject[] POI;
+    GameObject[] POIs;
 
     // Start is called before the first frame update
     void Start()
     {
-        POI = GameObject.FindGameObjectsWithTag("StandPoint");
+        POIs = GameObject.FindGameObjectsWithTag("StandPoint");
     }
 
     // Update is called once per frame
@@ -42,9 +42,9 @@ public class Player : MonoBehaviour
                 {
                     destination = hit.transform;
                     move = true;
-                    foreach(GameObject go in POI)
+                    foreach(GameObject POI in POIs)
                     {
-                        go.SetActive(false);
+                        POI.SetActive(false);
                     }
 
                 }
@@ -93,6 +93,11 @@ public class Player : MonoBehaviour
                             // End Scene;
                             print("The End");
                             gameObject.GetComponent<Cutscene>().playScene = true;
+                            toggleGlasses.SetActive(false);
+                            foreach (GameObject POI in POIs)
+                            {
+                                POI.SetActive(false);
+                            }
                         }
                     }
                     else
@@ -118,9 +123,9 @@ public class Player : MonoBehaviour
             if ((int)transform.position.x == (int)destination.position.x && (int)transform.position.z == (int)destination.position.z)
             {
                 move = false;
-                foreach (GameObject go in POI)
+                foreach (GameObject POI in POIs)
                 {
-                    go.SetActive(true);
+                    POI.SetActive(true);
                 }
             }
         }
