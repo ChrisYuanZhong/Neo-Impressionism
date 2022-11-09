@@ -10,13 +10,20 @@ public class Pickup : MonoBehaviour
 
     public bool isPickedUp = false;
 
+    public bool moving = false;
+
     public Vector3 velocity = Vector3.zero;
 
     private IEnumerator StopMoving()
     {
         yield return new WaitForSeconds(10);
 
-        Destroy(this);
+        Destroy(destination.gameObject);
+
+        if (CompareTag("Glasses"))
+            Destroy(this);
+        else
+            moving = false;
     }
 
     public bool PickedUP()
@@ -24,7 +31,9 @@ public class Pickup : MonoBehaviour
         if (!isPickedUp)
         {
             isPickedUp = true;
-            GetComponent<Collider>().enabled = false;
+            moving = true;
+            if (CompareTag("Glasses"))
+                GetComponent<Collider>().enabled = false;
             StartCoroutine(StopMoving());
             return true;
         }
@@ -41,7 +50,7 @@ public class Pickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isPickedUp)
+        if (moving)
         {
             transform.position = Vector3.SmoothDamp(transform.position, destination.position, ref velocity, speed);
             transform.rotation = Quaternion.Lerp(transform.rotation, destination.rotation, 2f * Time.deltaTime);

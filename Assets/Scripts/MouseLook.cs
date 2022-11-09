@@ -11,7 +11,7 @@ public class MouseLook : MonoBehaviour
     public float sensitivity = 1000f;
 
     float xRotation = 0f;
-    float yRotation;
+    float yRotation = 180f;
 
     // touch control
     Vector3 firstPoint, secondPoint;
