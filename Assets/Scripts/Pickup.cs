@@ -18,8 +18,6 @@ public class Pickup : MonoBehaviour
     {
         yield return new WaitForSeconds(10);
 
-        Destroy(destination.gameObject);
-
         if (CompareTag("Glasses"))
             Destroy(this);
         else

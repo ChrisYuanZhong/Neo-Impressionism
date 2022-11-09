@@ -92,6 +92,7 @@ public class Player : MonoBehaviour
                         {
                             // End Scene;
                             print("The End");
+                            gameObject.GetComponent<Cutscene>().playScene = true;
                         }
                     }
                     else
