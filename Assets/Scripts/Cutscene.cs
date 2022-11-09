@@ -6,54 +6,66 @@ public class Cutscene : MonoBehaviour
 {
     public Camera cam;
     public bool playScene = false;
+    public Material skybox;
 
     static float t = 0f;
-    static float duration = 500f;
-    private float blendY = 0f;
-    private float blendX = 0f;
+    static float duration = 6000f;
+    private float blend = 0f;
+    private Light sunlight;
+    public Material[] mats;
 
-
-    private float StartY;
-    private float EndY;
-    private float StartX;
-    private float EndX;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        skybox.SetFloat("_NightLerp", 0);
+        sunlight = GetComponent<Light>();
+        sunlight.color = new Color(207, 207, 207, 255);
     }
 
+    private void OnApplicationQuit()
+    {
+        sunlight.color = new Color(207, 207, 207, 255);
+        skybox.SetFloat("_NightLerp", 0);
+    }
     // Update is called once per frame
     void Update()
     {
         if (playScene)
         {
             Destroy(cam.GetComponent<MouseLook>());
-            StartY = cam.transform.rotation.y;
+            StartCoroutine(FadeNight());
+            Quaternion target = Quaternion.Euler(-20, 0, 0);
+            cam.transform.rotation = Quaternion.RotateTowards(cam.transform.rotation, target, 8f * Time.deltaTime);
+            
 
-            StartX = 0;
-            StartCoroutine(Spin(StartY, StartX));
+
         }
     }
 
   
 
-    IEnumerator Spin(float startY, float startX)
+    IEnumerator FadeNight()
     {
-        
-       
-        while (blendY < (startY + 180))
+        while (blend < 1)
         {
-            blendY = startY + 180 *( Mathf.Lerp(0, 1, t / duration));
-            blendX = startX + 30 * (Mathf.Lerp(0, 1, t / duration));
-            Debug.Log("Y " + "blendX");
-            Debug.Log("X " + "blendY");
-            t += Time.deltaTime;
+            if (blend == .5)
+            {
+                sunlight.color = new Color(97, 111, 253, 255);
+            }
             
-            cam.transform.eulerAngles = new Vector3(blendX, blendY, cam.transform.rotation.z);
+            blend = Mathf.Lerp(0, 1, t / duration);
+            t += Time.deltaTime;
+            skybox.SetFloat("_NightLerp", blend);
+            foreach (Material mat in mats)
+            {
+
+                mat.SetFloat("_Color_blindness", blend);
+            }
+
             yield return null;
         }
+
 
     }
 }
