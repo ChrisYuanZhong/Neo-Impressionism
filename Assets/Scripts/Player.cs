@@ -10,6 +10,9 @@ public class Player : MonoBehaviour
     public float speed = 0.8f;
     public GameObject fade;
     public int collectedPieces = 0;
+    public int leversPulled = 0;
+
+    public GameObject toggleGlasses;
 
     private Vector3 velocity = Vector3.zero;
 
@@ -54,12 +57,13 @@ public class Player : MonoBehaviour
                     }
                 }
 
-                if (hit.transform.gameObject.name == "Glasses Case")
+                if (hit.transform.gameObject.name == "Pickup Frame_Destination")
                 {
                     if (collectedPieces == 3)
                     {
                         // Collect the Glasses
                         Destroy(hit.transform.gameObject);
+                        toggleGlasses.gameObject.SetActive(true);
                     }
                 }
 
@@ -74,7 +78,31 @@ public class Player : MonoBehaviour
                 if (hit.transform.gameObject.name == "Lever Base")
                 {
                     fade.GetComponent<Fade>().FadeShow();
-                    print("1");
+
+                }
+
+                if (hit.transform.gameObject.CompareTag("Lever"))
+                {
+                    if (hit.transform.gameObject.GetComponent<Pickup>().PickedUP() == false)
+                    {
+                        StartCoroutine(hit.transform.gameObject.GetComponent<Lever>().LeverRotation());
+                        if (hit.transform.gameObject.GetComponent<Lever>().isFunctioning)
+                            leversPulled++;
+                        if (leversPulled == 2)
+                        {
+                            // End Scene;
+                            print("The End");
+                        }
+                    }
+                    else
+                    {
+                        GameObject[] levers = GameObject.FindGameObjectsWithTag("Lever");
+
+                        foreach (GameObject lever in levers)
+                        {
+                            lever.GetComponent<Lever>().isFunctioning = true;
+                        }
+                    }
 
                 }
             }

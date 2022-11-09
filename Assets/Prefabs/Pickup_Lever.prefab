@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pickup_Lever
       objectReference: {fileID: 0}
+    - target: {fileID: 691085116082048840, guid: 7ad5bf4788734794b980a6d8fb60a633,
+        type: 3}
+      propertyPath: m_TagString
+      value: Lever
+      objectReference: {fileID: 0}
     - target: {fileID: 691085116082048844, guid: 7ad5bf4788734794b980a6d8fb60a633,
         type: 3}
       propertyPath: m_RootOrder
