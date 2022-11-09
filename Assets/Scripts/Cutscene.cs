@@ -11,7 +11,7 @@ public class Cutscene : MonoBehaviour
     static float t = 0f;
     static float duration = 6000f;
     private float blend = 0f;
-    private Light sunlight;
+    
     public Material[] mats;
 
 
@@ -19,13 +19,12 @@ public class Cutscene : MonoBehaviour
     void Start()
     {
         skybox.SetFloat("_NightLerp", 0);
-        sunlight = GetComponent<Light>();
-        sunlight.color = new Color(207, 207, 207, 255);
+    
     }
 
     private void OnApplicationQuit()
     {
-        sunlight.color = new Color(207, 207, 207, 255);
+    
         skybox.SetFloat("_NightLerp", 0);
     }
     // Update is called once per frame
@@ -36,8 +35,8 @@ public class Cutscene : MonoBehaviour
             Destroy(cam.GetComponent<MouseLook>());
             StartCoroutine(FadeNight());
             Quaternion target = Quaternion.Euler(-20, 0, 0);
-            cam.transform.rotation = Quaternion.RotateTowards(cam.transform.rotation, target, 8f * Time.deltaTime);
-            
+            //cam.transform.rotation = Quaternion.RotateTowards(cam.transform.rotation, target, 8f * Time.deltaTime);
+            cam.transform.rotation = Quaternion.Lerp(cam.transform.rotation, target, .2f * Time.deltaTime);
 
 
         }
@@ -49,10 +48,7 @@ public class Cutscene : MonoBehaviour
     {
         while (blend < 1)
         {
-            if (blend == .5)
-            {
-                sunlight.color = new Color(97, 111, 253, 255);
-            }
+            
             
             blend = Mathf.Lerp(0, 1, t / duration);
             t += Time.deltaTime;
