@@ -22,6 +22,10 @@ public class Player : MonoBehaviour
 
     public GameObject glassesBreakingVFX;
 
+    public AudioSource source;
+
+    public AudioClip tapping;
+
     private Vector3 velocity = Vector3.zero;
 
     private bool move = false;
@@ -33,6 +37,7 @@ public class Player : MonoBehaviour
     IEnumerator ShowExitButton()
     {
         yield return new WaitForSeconds(10);
+
         exitButton.SetActive(true);
     }
 
@@ -49,6 +54,11 @@ public class Player : MonoBehaviour
     void Start()
     {
         POIs = GameObject.FindGameObjectsWithTag("StandPoint");
+        foreach (GameObject POI in POIs)
+        {
+            if (Vector3.Distance(POI.transform.position, transform.position) < 2f || Vector3.Distance(POI.transform.position, transform.position) > POI.GetComponentInChildren<Button>().showDistance)
+                POI.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -74,6 +84,7 @@ public class Player : MonoBehaviour
 
                 if (hit.transform.gameObject.CompareTag("Glasses"))
                 {
+                    source.PlayOneShot(tapping);
                     if (hit.transform.gameObject.GetComponent<Pickup>().PickedUP() == true)
                     {
                         collectedPieces++;
@@ -88,12 +99,12 @@ public class Player : MonoBehaviour
                     {
                         startPointHint1.GetComponent<LensHint>().DisableVFX();
                         Destroy(startPointHint1.GetComponent<LensHint>());
-                        print("1");
                     }
                 }
 
                 if (hit.transform.gameObject.name == "Pickup Frame_Destination")
                 {
+                    source.PlayOneShot(tapping);
                     if (collectedPieces == 3)
                     {
                         // Collect the Glasses
@@ -108,6 +119,7 @@ public class Player : MonoBehaviour
 
                 if (hit.transform.gameObject.name == "Statue Piece")
                 {
+                    source.PlayOneShot(tapping);
                     if (hit.transform.gameObject.GetComponent<StatuePiece>().PickedUP() == true)
                     {
                         startPointHint1.GetComponent<StatueHint>().DisableVFX();
@@ -131,7 +143,6 @@ public class Player : MonoBehaviour
                         if (leversPulled == 2)
                         {
                             // End Scene;
-                            print("The End");
                             gameObject.GetComponent<Cutscene>().playScene = true;
                             toggleGlasses.SetActive(false);
                             foreach (GameObject POI in POIs)
@@ -143,6 +154,8 @@ public class Player : MonoBehaviour
                     }
                     else
                     {
+                        source.PlayOneShot(tapping);
+
                         GameObject[] levers = GameObject.FindGameObjectsWithTag("Lever");
 
                         foreach (GameObject lever in levers)

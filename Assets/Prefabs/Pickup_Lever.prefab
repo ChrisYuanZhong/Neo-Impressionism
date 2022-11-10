@@ -109,5 +109,6 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 691085116082048835, guid: 7ad5bf4788734794b980a6d8fb60a633, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7ad5bf4788734794b980a6d8fb60a633, type: 3}

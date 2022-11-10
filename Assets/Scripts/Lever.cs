@@ -44,8 +44,6 @@ public class Lever : MonoBehaviour
         yield return new WaitForSeconds(10);
 
         rotatingBack = false;
-
-        //Destroy(this);
     }
 
     // Start is called before the first frame update

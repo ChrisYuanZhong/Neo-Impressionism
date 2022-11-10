@@ -46,7 +46,6 @@ public class Fade : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        print(1);
         if(other.tag == "Region")
         {
             fadingIn = true;

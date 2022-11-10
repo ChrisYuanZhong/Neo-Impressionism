@@ -10,9 +10,9 @@ public class Pickup : MonoBehaviour
 
     public bool isPickedUp = false;
 
-    public bool moving = false;
+    private bool moving = false;
 
-    public Vector3 velocity = Vector3.zero;
+    private Vector3 velocity = Vector3.zero;
 
     private IEnumerator StopMoving()
     {

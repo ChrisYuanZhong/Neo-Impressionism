@@ -12,10 +12,6 @@ public class StatuePiece : MonoBehaviour
 
     public GameObject lever;
 
-    public AudioSource source;
-
-    public AudioClip clip;
-
     private Vector3 originalPosition;
    
     private Vector3 originalScale;
@@ -52,7 +48,6 @@ public class StatuePiece : MonoBehaviour
     {
         if (!isPickedUp)
         {
-            source.PlayOneShot(clip);
             isPickedUp = true;
             isFloating = true;
             GetComponent<Collider>().enabled = false;
