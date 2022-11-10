@@ -35,7 +35,7 @@ public class StatuePiece : MonoBehaviour
         lever.gameObject.SetActive(true);
         spawningVFX.GetComponent<Lightbeam_Controller>().on = true;
         
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.75f);
 
         spawningVFX.GetComponent<Lightbeam_Controller>().on = false;
         GetBack();

@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
     {
         glassesBreakingVFX.GetComponent<Lightbeam_Controller>().on = true;
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.75f);
 
         glassesBreakingVFX.GetComponent<Lightbeam_Controller>().on = false;
     }
@@ -86,8 +86,8 @@ public class Player : MonoBehaviour
 
                     if (hit.transform.gameObject.name == "Pickup Lense (1)")
                     {
-                        print("1");
                         Destroy(startPointHint1.GetComponent<LensHint>());
+                        print("1");
                     }
                 }
 
