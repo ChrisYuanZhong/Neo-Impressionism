@@ -44,9 +44,9 @@ public class Button : MonoBehaviour
             image.enabled = true;
         }*/
 
-        if (Vector3.Distance(player.transform.position, transform.position) > showDistance || Vector3.Distance(player.transform.position, transform.position) < 1f)
+        if (Vector3.Distance(player.transform.position, transform.position) > showDistance || Vector3.Distance(player.transform.position, transform.position) < 2f)
             image.enabled = false;
-        if (Vector3.Distance(player.transform.position, transform.position) < showDistance && Vector3.Distance(player.transform.position, transform.position) > 1f)
+        if (Vector3.Distance(player.transform.position, transform.position) < showDistance && Vector3.Distance(player.transform.position, transform.position) > 2f)
             image.enabled = true;
     }
 }
