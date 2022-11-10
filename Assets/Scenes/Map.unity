@@ -196,6 +196,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &8598738 stripped
@@ -351,6 +356,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &12636171
@@ -424,6 +434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush_unity 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
@@ -518,6 +533,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &40042338
@@ -587,6 +607,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass5 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
 --- !u!4 &40042339 stripped
@@ -602,6 +627,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -661,6 +691,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -749,6 +784,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &54201210
@@ -817,6 +857,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -897,6 +942,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
 --- !u!4 &58258255 stripped
@@ -912,6 +962,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -971,6 +1026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -1047,6 +1107,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &65835656
@@ -1116,6 +1181,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &67127646
@@ -1184,6 +1254,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass5 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
@@ -1266,6 +1341,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &76879822 stripped
@@ -1347,6 +1427,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &80623327
@@ -1416,6 +1501,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &82082292
@@ -1484,6 +1574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -1766,6 +1861,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &92696145 stripped
@@ -1853,6 +1953,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &107779785
@@ -1921,6 +2026,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass5 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
@@ -1996,6 +2106,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -2140,6 +2255,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &137762296
@@ -2208,6 +2328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -2299,6 +2424,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (136)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &145606476 stripped
@@ -2386,6 +2516,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass3 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
 --- !u!4 &150375296 stripped
@@ -2460,6 +2595,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
@@ -2536,6 +2676,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass7 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cf6f1a58f907a804bacb3df30de8fa29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf6f1a58f907a804bacb3df30de8fa29, type: 3}
 --- !u!4 &153613462 stripped
@@ -2610,6 +2755,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7f577cc5113f8114ca1e0ea57ea5f369,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f577cc5113f8114ca1e0ea57ea5f369, type: 3}
@@ -2775,6 +2925,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush_unity 1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
@@ -2997,6 +3152,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &232898616 stripped
@@ -3212,6 +3372,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!224 &249295724 stripped
@@ -3287,6 +3452,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &263804664 stripped
@@ -3302,6 +3472,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -3376,6 +3551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sparkles (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
@@ -3467,6 +3647,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
@@ -3824,6 +4009,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &308955579 stripped
@@ -3941,6 +4131,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &346085183
@@ -4009,6 +4204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -4085,6 +4285,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9864beb00fea8d48badfabfbc115632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9864beb00fea8d48badfabfbc115632, type: 3}
 --- !u!4 &367778635 stripped
@@ -4160,6 +4365,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass2 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
 --- !u!4 &371177858 stripped
@@ -4175,6 +4385,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -4250,6 +4465,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sparkles (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
 --- !u!4 &375309461 stripped
@@ -4265,6 +4485,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -4324,6 +4549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -4400,6 +4630,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &397397206 stripped
@@ -4475,6 +4710,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &410013224
@@ -4543,6 +4783,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -4744,6 +4989,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!20 &425494000 stripped
@@ -4759,6 +5009,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -4818,6 +5073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -4899,6 +5159,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -5235,6 +5500,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &440125614 stripped
@@ -5399,6 +5669,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &464248461 stripped
@@ -5474,6 +5749,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &481667103
@@ -5543,6 +5823,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &490082406
@@ -5552,6 +5837,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -5626,6 +5916,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sparkles (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
@@ -5720,6 +6015,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9864beb00fea8d48badfabfbc115632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9864beb00fea8d48badfabfbc115632, type: 3}
 --- !u!4 &516621312 stripped
@@ -5794,6 +6094,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -5876,6 +6181,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &521747319 stripped
@@ -5951,6 +6261,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &529943085
@@ -6024,6 +6339,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
@@ -6106,6 +6426,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
 --- !u!4 &541113444 stripped
@@ -6121,6 +6446,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -6180,6 +6510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -6286,6 +6621,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!224 &603786652 stripped
@@ -6361,6 +6701,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass9 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e02d3adf6b942f04e9f779854cd1e047,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e02d3adf6b942f04e9f779854cd1e047, type: 3}
 --- !u!4 &604405677 stripped
@@ -6376,6 +6721,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -6435,6 +6785,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -6511,6 +6866,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass7 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cf6f1a58f907a804bacb3df30de8fa29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf6f1a58f907a804bacb3df30de8fa29, type: 3}
 --- !u!4 &607080588 stripped
@@ -6586,6 +6946,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &608869694
@@ -6654,6 +7019,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
@@ -6745,6 +7115,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &615010634 stripped
@@ -6819,6 +7194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -6904,6 +7284,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &626770572
@@ -6972,6 +7357,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass7 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cf6f1a58f907a804bacb3df30de8fa29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf6f1a58f907a804bacb3df30de8fa29, type: 3}
@@ -7054,6 +7444,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &644696532
@@ -7123,6 +7518,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &646982353
@@ -7191,6 +7591,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass5 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
@@ -7267,6 +7672,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &671927083
@@ -7340,6 +7750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -7425,6 +7840,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &683436874 stripped
@@ -7499,6 +7919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass3 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
@@ -7676,6 +8101,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &699673919
@@ -7745,6 +8175,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &726892030
@@ -7754,6 +8189,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -7829,6 +8269,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sparkles (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
 --- !u!4 &726892031 stripped
@@ -7844,6 +8289,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -7903,6 +8353,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -8094,6 +8549,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &743092240
@@ -8163,6 +8623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &754108052 stripped
@@ -8190,6 +8655,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -8249,6 +8719,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -8325,6 +8800,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9864beb00fea8d48badfabfbc115632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9864beb00fea8d48badfabfbc115632, type: 3}
 --- !u!4 &761206429 stripped
@@ -8340,6 +8820,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -8414,6 +8899,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sparkles (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
@@ -8500,6 +8990,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
 --- !u!4 &764262609 stripped
@@ -8574,6 +9069,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -8808,6 +9308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
 --- !u!4 &785712641 stripped
@@ -8967,6 +9472,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass5 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
 --- !u!4 &796245618 stripped
@@ -9041,6 +9551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (114)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -9186,6 +9701,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
 --- !u!4 &814951575 stripped
@@ -9261,6 +9781,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &821653023
@@ -9329,6 +9854,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -9399,6 +9929,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &827271418
@@ -9467,6 +10002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
@@ -9730,6 +10270,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass8 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c226903e4e397de4ba7cee53ff6be44d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c226903e4e397de4ba7cee53ff6be44d, type: 3}
 --- !u!4 &852265951 stripped
@@ -9817,6 +10362,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &865141162 stripped
@@ -9891,6 +10441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -10136,6 +10691,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
 --- !u!4 &875465111 stripped
@@ -10210,6 +10770,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -10300,6 +10865,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass5 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
 --- !u!4 &883912270 stripped
@@ -10374,6 +10944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -10456,6 +11031,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &897071839
@@ -10525,6 +11105,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9ad47cd90bea5d4ea50f341b91d201a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ad47cd90bea5d4ea50f341b91d201a, type: 3}
 --- !u!4 &897071840 stripped
@@ -10540,6 +11125,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -10615,6 +11205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sparkles (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
 --- !u!4 &900472786 stripped
@@ -10689,6 +11284,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass5
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
@@ -10791,6 +11391,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
 --- !u!4 &911328390 stripped
@@ -10865,6 +11470,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e02d3adf6b942f04e9f779854cd1e047,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e02d3adf6b942f04e9f779854cd1e047, type: 3}
@@ -10941,6 +11551,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &930864092
@@ -11010,6 +11625,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &934299071
@@ -11019,6 +11639,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -11078,6 +11703,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -11153,6 +11783,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush_unity 1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
@@ -11244,6 +11879,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &947085019
@@ -11253,6 +11893,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -11312,6 +11957,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -11387,6 +12037,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -11543,6 +12198,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
 --- !u!4 &975821912 stripped
@@ -11617,6 +12277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -11783,6 +12448,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
 --- !u!4 &984662805 stripped
@@ -11858,6 +12528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &988391374
@@ -11927,6 +12602,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass2 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
 --- !u!4 &988391375 stripped
@@ -11942,6 +12622,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -12001,6 +12686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -12167,6 +12857,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1008229373
@@ -12176,6 +12871,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -12235,6 +12935,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -12311,6 +13016,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1016532651 stripped
@@ -12386,6 +13096,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1019581657
@@ -12454,6 +13169,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass5 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
@@ -12609,6 +13329,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1030838178 stripped
@@ -12624,6 +13349,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -12683,6 +13413,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -12764,6 +13499,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -12967,6 +13707,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9ad47cd90bea5d4ea50f341b91d201a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ad47cd90bea5d4ea50f341b91d201a, type: 3}
@@ -13183,6 +13928,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1091639695 stripped
@@ -13258,6 +14008,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
 --- !u!4 &1105380306 stripped
@@ -13332,6 +14087,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -13457,6 +14217,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1138044220
@@ -13526,6 +14291,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1147802289
@@ -13535,6 +14305,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -13594,6 +14369,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -13669,6 +14449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -13899,6 +14684,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1182439229 stripped
@@ -13973,6 +14763,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
@@ -14049,6 +14844,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
 --- !u!4 &1190263616 stripped
@@ -14123,6 +14923,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -14211,6 +15016,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1207880068 stripped
@@ -14285,6 +15095,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass7 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cf6f1a58f907a804bacb3df30de8fa29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf6f1a58f907a804bacb3df30de8fa29, type: 3}
@@ -14361,6 +15176,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1231729931
@@ -14429,6 +15249,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass2 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
@@ -14504,6 +15329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush_unity 1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
@@ -14595,6 +15425,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1233022322 stripped
@@ -14670,6 +15505,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1236383010
@@ -14738,6 +15578,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -14813,6 +15658,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -14897,6 +15747,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -15050,6 +15905,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -15281,6 +16141,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1288385017
@@ -15349,6 +16214,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -15429,6 +16299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
@@ -15645,6 +16520,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass3 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
 --- !u!4 &1343063111 stripped
@@ -15732,6 +16612,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1351025236
@@ -15800,6 +16685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass5 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
@@ -15882,6 +16772,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
 --- !u!4 &1358247956 stripped
@@ -15962,6 +16857,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -16167,6 +17067,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1379707094 stripped
@@ -16248,6 +17153,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1395618745
@@ -16257,6 +17167,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -16331,6 +17246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sparkles (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
@@ -16407,6 +17327,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
 --- !u!4 &1395898297 stripped
@@ -16481,6 +17406,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -16637,6 +17567,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1413679673 stripped
@@ -16711,6 +17646,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -16790,6 +17730,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
@@ -16960,6 +17905,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1421577397
@@ -17033,6 +17983,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
@@ -17180,6 +18135,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1434982516
@@ -17249,6 +18209,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
 --- !u!4 &1434982517 stripped
@@ -17264,6 +18229,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -17338,6 +18308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sparkles (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
@@ -17414,6 +18389,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
 --- !u!4 &1437321102 stripped
@@ -17489,6 +18469,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1452384757 stripped
@@ -17563,6 +18548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (119)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -17654,6 +18644,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Glasses_Stand (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dcf955626d648ce4a881ec668ff3484a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcf955626d648ce4a881ec668ff3484a, type: 3}
 --- !u!4 &1454132218 stripped
@@ -17734,6 +18729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush_unity 1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
@@ -17816,6 +18816,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1465807730 stripped
@@ -17890,6 +18895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c226903e4e397de4ba7cee53ff6be44d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c226903e4e397de4ba7cee53ff6be44d, type: 3}
@@ -17988,6 +18998,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
 --- !u!4 &1483130771 stripped
@@ -18062,6 +19077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7f577cc5113f8114ca1e0ea57ea5f369,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f577cc5113f8114ca1e0ea57ea5f369, type: 3}
@@ -18324,6 +19344,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1512954596
@@ -18333,6 +19358,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -18392,6 +19422,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -18468,6 +19503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1526692296
@@ -18537,6 +19577,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1527976868
@@ -18605,6 +19650,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -18695,6 +19745,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush_unity 1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
@@ -18978,6 +20033,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -19037,6 +20097,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -19112,6 +20177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass5 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
@@ -19221,6 +20291,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1571078957
@@ -19289,6 +20364,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 00c296fe1e86efa4ea7e6e765c6e374e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00c296fe1e86efa4ea7e6e765c6e374e, type: 3}
@@ -19588,6 +20668,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass2 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
 --- !u!4 &1580674388 stripped
@@ -19672,6 +20757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
@@ -19826,6 +20916,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
@@ -20156,6 +21251,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -20230,6 +21330,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sparkles (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
@@ -20311,6 +21416,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
 --- !u!4 &1604137527 stripped
@@ -20386,6 +21496,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1609573363
@@ -20455,6 +21570,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1609883614
@@ -20523,6 +21643,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -20614,6 +21739,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &1615328019 stripped
@@ -20701,6 +21831,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1634383152
@@ -20770,6 +21905,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1635210653
@@ -20838,6 +21978,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -20997,6 +22142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Glasses_Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dcf955626d648ce4a881ec668ff3484a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcf955626d648ce4a881ec668ff3484a, type: 3}
@@ -21228,6 +22378,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &1661596961 stripped
@@ -21302,6 +22457,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -21590,6 +22750,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1669597471
@@ -21674,6 +22839,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &1669597472 stripped
@@ -21689,6 +22859,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -21764,6 +22939,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sparkles (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
 --- !u!4 &1670114412 stripped
@@ -21838,6 +23018,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass5 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
@@ -21924,6 +23109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
@@ -22014,6 +23204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (131)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -22106,6 +23301,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
 --- !u!4 &1690622844 stripped
@@ -22127,6 +23327,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -22201,6 +23406,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sparkles
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
@@ -22289,6 +23499,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass3 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
 --- !u!4 &1714966927 stripped
@@ -22364,6 +23579,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1724914926
@@ -22432,6 +23652,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -22508,6 +23733,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1732182766
@@ -22576,6 +23806,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -22660,6 +23895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -22822,6 +24062,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -22881,6 +24126,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -22957,6 +24207,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1774626359
@@ -23025,6 +24280,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass5 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
@@ -23116,6 +24376,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &1798396023 stripped
@@ -23203,6 +24468,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1809843919 stripped
@@ -23278,6 +24548,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1818786273
@@ -23346,6 +24621,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
@@ -23459,6 +24739,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass4 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9ad47cd90bea5d4ea50f341b91d201a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ad47cd90bea5d4ea50f341b91d201a, type: 3}
 --- !u!4 &1823299895 stripped
@@ -23533,6 +24818,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -23710,6 +25000,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1851597165
@@ -23779,6 +25074,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1857207801
@@ -23847,6 +25147,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b1bb19e92beea4a970ac60050ca41c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b1bb19e92beea4a970ac60050ca41c, type: 3}
@@ -23943,6 +25248,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1863467047 stripped
@@ -23970,6 +25280,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -24044,6 +25359,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sparkles (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
@@ -24120,6 +25440,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass4 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9ad47cd90bea5d4ea50f341b91d201a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ad47cd90bea5d4ea50f341b91d201a, type: 3}
 --- !u!4 &1874340847 stripped
@@ -24195,6 +25520,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cf6f1a58f907a804bacb3df30de8fa29,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf6f1a58f907a804bacb3df30de8fa29, type: 3}
 --- !u!4 &1874942338 stripped
@@ -24269,6 +25599,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass5 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
@@ -24485,6 +25820,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1924398898
@@ -24494,6 +25834,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -24553,6 +25898,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -24629,6 +25979,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
 --- !u!4 &1927439419 stripped
@@ -24644,6 +25999,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -24703,6 +26063,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -24779,6 +26144,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
 --- !u!4 &1931220843 stripped
@@ -24854,6 +26224,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1936251610
@@ -24922,6 +26297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -25120,6 +26500,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1943381772 stripped
@@ -25141,6 +26526,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -25200,6 +26590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -25276,6 +26671,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1953414521
@@ -25344,6 +26744,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -25426,6 +26831,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &1971020330
@@ -25494,6 +26904,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9864beb00fea8d48badfabfbc115632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9864beb00fea8d48badfabfbc115632, type: 3}
@@ -25597,6 +27012,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &1975456612 stripped
@@ -25684,6 +27104,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &1986028851 stripped
@@ -25758,6 +27183,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -25840,6 +27270,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!224 &2004516249 stripped
@@ -25921,6 +27356,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &2016920567
@@ -25994,6 +27434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
@@ -26108,6 +27553,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 439970491}
     m_Modifications:
+    - target: {fileID: 905069495376603747, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
         type: 3}
       propertyPath: m_RootOrder
@@ -26182,6 +27632,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sparkles (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: 9502bc15d5d587e4085790cb3bf7f7d4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9502bc15d5d587e4085790cb3bf7f7d4, type: 3}
@@ -26285,6 +27740,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &2047574205
@@ -26353,6 +27813,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9ad47cd90bea5d4ea50f341b91d201a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ad47cd90bea5d4ea50f341b91d201a, type: 3}
@@ -26428,6 +27893,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
@@ -26510,6 +27980,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!4 &2079121126 stripped
@@ -26531,6 +28006,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -26590,6 +28070,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -26666,6 +28151,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &2092815878
@@ -26734,6 +28224,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -26810,6 +28305,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
 --- !u!4 &2095998474 stripped
@@ -26884,6 +28384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass4
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9ad47cd90bea5d4ea50f341b91d201a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ad47cd90bea5d4ea50f341b91d201a, type: 3}
@@ -26960,6 +28465,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass10 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7f577cc5113f8114ca1e0ea57ea5f369,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f577cc5113f8114ca1e0ea57ea5f369, type: 3}
 --- !u!4 &2101235536 stripped
@@ -26975,6 +28485,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -27034,6 +28549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -27109,6 +28629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -27265,6 +28790,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51467de0db1c66f4a94306653e59665f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51467de0db1c66f4a94306653e59665f, type: 3}
 --- !u!4 &2115419420 stripped
@@ -27385,6 +28915,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1 &2124968882
@@ -27498,6 +29033,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Tree_comb (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
@@ -27685,6 +29225,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bush_unity 1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61007448613b68048ab22eb2ce1b038b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61007448613b68048ab22eb2ce1b038b, type: 3}
 --- !u!4 &2131713905 stripped
@@ -27760,6 +29305,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 936d08b51670283489d0c63199fcf25d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936d08b51670283489d0c63199fcf25d, type: 3}
 --- !u!4 &2131746517 stripped
@@ -27775,6 +29325,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 774628496}
     m_Modifications:
+    - target: {fileID: 246982480645125760, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1018454614619073633, guid: a746deefb8a2f71429230ee5ed201b5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -27834,6 +29389,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364725121173627109, guid: a746deefb8a2f71429230ee5ed201b5b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a746deefb8a2f71429230ee5ed201b5b, type: 3}
@@ -27916,6 +29476,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_comb (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1320a5c0f7d37246b70dc089e1a4899,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1320a5c0f7d37246b70dc089e1a4899, type: 3}
 --- !u!1001 &2144027918
@@ -27984,6 +29549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass5 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ead65ab4adf8f4c45a0b756bac691572,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ead65ab4adf8f4c45a0b756bac691572, type: 3}
@@ -28059,6 +29629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grass1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9864beb00fea8d48badfabfbc115632,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9864beb00fea8d48badfabfbc115632, type: 3}
