@@ -9,16 +9,18 @@ public class Player : MonoBehaviour
 {
     public float speed = 0.8f;
     public GameObject fade;
-    public int collectedPieces = 0;
-    public int leversPulled = 0;
-
-    public AudioSource source;
-
-    public AudioClip tappingRock;
+    private int collectedPieces = 0;
+    private int leversPulled = 0;
 
     public GameObject toggleGlasses;
 
     public GameObject exitButton;
+
+    public GameObject startPointHint1;
+
+    public GameObject statueHint;
+
+    public GameObject glassesBreakingVFX;
 
     private Vector3 velocity = Vector3.zero;
 
@@ -32,6 +34,15 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(10);
         exitButton.SetActive(true);
+    }
+
+    IEnumerator PickUpGlasses()
+    {
+        glassesBreakingVFX.GetComponent<Lightbeam_Controller>().on = true;
+
+        yield return new WaitForSeconds(1);
+
+        glassesBreakingVFX.GetComponent<Lightbeam_Controller>().on = false;
     }
 
     // Start is called before the first frame update
@@ -67,6 +78,17 @@ public class Player : MonoBehaviour
                     {
                         collectedPieces++;
                     }
+
+                    if (collectedPieces == 3)
+                    {
+                        startPointHint1.GetComponent<GlassesHint>().enabled = true;
+                    }
+
+                    if (hit.transform.gameObject.name == "Pickup Lense (1)")
+                    {
+                        print("1");
+                        Destroy(startPointHint1.GetComponent<LensHint>());
+                    }
                 }
 
                 if (hit.transform.gameObject.name == "Pickup Frame_Destination")
@@ -74,8 +96,11 @@ public class Player : MonoBehaviour
                     if (collectedPieces == 3)
                     {
                         // Collect the Glasses
+                        StartCoroutine(PickUpGlasses());
+                        Destroy(startPointHint1.GetComponent<GlassesHint>());
                         Destroy(hit.transform.gameObject);
                         toggleGlasses.gameObject.SetActive(true);
+                        statueHint.GetComponent<StatueHint>().enabled = true;
                     }
                 }
 
@@ -83,8 +108,7 @@ public class Player : MonoBehaviour
                 {
                     if (hit.transform.gameObject.GetComponent<StatuePiece>().PickedUP() == true)
                     {
-                        source.PlayOneShot(tappingRock);
-                        // Collect the Lever
+                        Destroy(statueHint.GetComponent<StatueHint>());
                     }
                 }
 
