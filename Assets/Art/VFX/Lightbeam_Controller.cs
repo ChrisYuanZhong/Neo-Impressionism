@@ -7,7 +7,7 @@ public class Lightbeam_Controller : MonoBehaviour
     public bool on;
     public ParticleSystem sparkle;
     static float t = 0f;
-    static float duration = 1f;
+    public float duration;
     private float blend = 0f;
     // Start is called before the first frame update
     void Start()
@@ -21,42 +21,24 @@ public class Lightbeam_Controller : MonoBehaviour
     {
         if (on)
         {
-            StartCoroutine(LerpBlend());
+            sparkle.Play();
+           // sparkle.enableEmission = true;
+            this.transform.localScale = Vector3.Lerp(this.transform.localScale, new Vector3(1, 1, 1), 8f * Time.deltaTime);
+
+           
         }
         if (!on)
         {
-            StartCoroutine(LerpBlend());
-        }
-    }
-
-    IEnumerator LerpBlend()
-    {
-        t = 0;
-        if (on)
-        {
             
-            while (blend < 1)
-            {
-                blend = Mathf.Lerp(0, 1, t / duration);
-                t += Time.deltaTime;
-                this.transform.localScale = new Vector3(blend, blend, blend);
-                yield return null; 
-            }
-            sparkle.Play();
-        }
-        else
-        {
-            while (blend > 0)
-            {
-                blend = Mathf.Lerp(1, 0, t / duration);
-                t += Time.deltaTime;
-                this.transform.localScale = new Vector3(blend, blend, blend);
-                yield return null;
-            }
+            this.transform.localScale = Vector3.Lerp(this.transform.localScale, new Vector3(0, 0, 0), 20f * Time.deltaTime);
+            // sparkle.enableEmission = false;
             sparkle.Stop();
-
+            
         }
-        
-        
     }
+
+
+        
+        
+    
 }

@@ -9,7 +9,7 @@ public class Cutscene : MonoBehaviour
     public Material skybox;
 
     static float t = 0f;
-    static float duration = 6000f;
+    static float duration = 3000f;
     private float blend = 0f;
     
     public Material[] mats;
