@@ -75,7 +75,7 @@ public class Player : MonoBehaviour
                 {
                     destination = hit.transform;
                     move = true;
-                    foreach(GameObject POI in POIs)
+                    foreach (GameObject POI in POIs)
                     {
                         POI.SetActive(false);
                     }
@@ -173,14 +173,19 @@ public class Player : MonoBehaviour
             transform.position = Vector3.SmoothDamp(transform.position, destination.position, ref velocity, speed);
             //transform.position = Vector3.Lerp(transform.position, destination.position, 2 * Time.deltaTime);
             //transform.position = Vector3.MoveTowards(transform.position, destination.position, 10f * Time.deltaTime);
-            
+
             if ((int)transform.position.x == (int)destination.position.x && (int)transform.position.z == (int)destination.position.z)
             {
                 move = false;
                 foreach (GameObject POI in POIs)
                 {
                     if (Vector3.Distance(POI.transform.position, transform.position) > 2f && Vector3.Distance(POI.transform.position, transform.position) < POI.GetComponentInChildren<Button>().showDistance)
+                    {
+                        if (POI.GetComponent<Button>() != null)
+                            POI.GetComponent<Button>().SetPos();
                         POI.SetActive(true);
+                    }
+
                 }
             }
         }
