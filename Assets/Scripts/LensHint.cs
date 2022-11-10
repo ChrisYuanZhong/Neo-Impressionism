@@ -8,6 +8,11 @@ public class LensHint : MonoBehaviour
 
     public GameObject lensLightbeam;
 
+    public void DisableVFX()
+    {
+        lensLightbeam.GetComponent<Lightbeam_Controller>().on = false;
+    }
+
     // Start is called before the first frame update
     void Start()
     {

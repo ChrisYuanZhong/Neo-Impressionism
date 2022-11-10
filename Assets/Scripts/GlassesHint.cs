@@ -8,6 +8,11 @@ public class GlassesHint : MonoBehaviour
 
     public GameObject glassesLightbeam;
 
+    public void DisableVFX()
+    {
+        glassesLightbeam.GetComponent<Lightbeam_Controller>().on = false;
+    }
+
     // Start is called before the first frame update
     void Start()
     {

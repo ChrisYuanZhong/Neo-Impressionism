@@ -147,7 +147,6 @@ GameObject:
   - component: {fileID: -6832508213432226197}
   - component: {fileID: -2355420089558662930}
   - component: {fileID: -4231424634033086100}
-  - component: {fileID: 3073858611907776532}
   - component: {fileID: -35201392803508121}
   m_Layer: 0
   m_Name: First Person Player
@@ -185,7 +184,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.8
-  collectedPieces: 0
+  fade: {fileID: 0}
+  toggleGlasses: {fileID: 0}
+  exitButton: {fileID: 0}
+  startPointHint1: {fileID: 0}
+  statueHint: {fileID: 0}
+  glassesBreakingVFX: {fileID: 0}
 --- !u!54 &-6832508213432226197
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -242,19 +246,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 3b9f138f5b97fcf4aa1955d668d91806, type: 2}
   - {fileID: 2100000, guid: 84c7bea88399d9f43b37149010a6200a, type: 2}
   colorblind: 1
---- !u!114 &3073858611907776532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2615029770714217094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99e9444f5d2e3c340b65f96b8f44aa3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  regionName: {fileID: 0}
 --- !u!114 &-35201392803508121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,6 +260,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   playScene: 0
+  skybox: {fileID: 0}
+  mats: []
 --- !u!1 &2615029771006078712
 GameObject:
   m_ObjectHideFlags: 0

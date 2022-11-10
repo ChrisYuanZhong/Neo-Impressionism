@@ -8,6 +8,11 @@ public class StatueHint : MonoBehaviour
 
     public GameObject statueLightbeam;
 
+    public void DisableVFX()
+    {
+        statueLightbeam.GetComponent<Lightbeam_Controller>().on = false;
+    }
+
     // Start is called before the first frame update
     void Start()
     {

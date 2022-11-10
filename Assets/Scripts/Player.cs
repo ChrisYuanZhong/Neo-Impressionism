@@ -86,6 +86,7 @@ public class Player : MonoBehaviour
 
                     if (hit.transform.gameObject.name == "Pickup Lense (1)")
                     {
+                        startPointHint1.GetComponent<LensHint>().DisableVFX();
                         Destroy(startPointHint1.GetComponent<LensHint>());
                         print("1");
                     }
@@ -97,6 +98,7 @@ public class Player : MonoBehaviour
                     {
                         // Collect the Glasses
                         StartCoroutine(PickUpGlasses());
+                        startPointHint1.GetComponent<GlassesHint>().DisableVFX();
                         Destroy(startPointHint1.GetComponent<GlassesHint>());
                         Destroy(hit.transform.gameObject);
                         toggleGlasses.gameObject.SetActive(true);
@@ -108,13 +110,14 @@ public class Player : MonoBehaviour
                 {
                     if (hit.transform.gameObject.GetComponent<StatuePiece>().PickedUP() == true)
                     {
+                        startPointHint1.GetComponent<StatueHint>().DisableVFX();
                         Destroy(statueHint.GetComponent<StatueHint>());
                     }
                 }
 
                 if (hit.transform.gameObject.name == "Lever Base")
                 {
-                    fade.GetComponent<Fade>().FadeShow();
+                    //fade.GetComponent<Fade>().FadeShow();
 
                 }
 
@@ -163,7 +166,8 @@ public class Player : MonoBehaviour
                 move = false;
                 foreach (GameObject POI in POIs)
                 {
-                    POI.SetActive(true);
+                    if (Vector3.Distance(POI.transform.position, transform.position) > 2f)
+                        POI.SetActive(true);
                 }
             }
         }
