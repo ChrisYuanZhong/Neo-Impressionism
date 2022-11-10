@@ -5,18 +5,24 @@ using UnityEngine;
 
 public class Lever : MonoBehaviour
 {
-    public bool rotating = false;
+    public Transform rotationDestination;
 
-    public bool rotatingBack = false;
+    public AudioSource source;
+
+    public AudioClip clip;
+
+    private bool rotating = false;
+
+    private bool rotatingBack = false;
 
     public bool isFunctioning = false;
 
-    public Transform rotationDestination;
-
-    public Quaternion originalRotation;
+    private Quaternion originalRotation;
 
     public IEnumerator LeverRotation()
     {
+        source.PlayOneShot(clip);
+
         rotating = true;
 
         yield return new WaitForSeconds(1);
@@ -31,6 +37,8 @@ public class Lever : MonoBehaviour
 
     public IEnumerator LeverRotationBack()
     {
+        source.PlayOneShot(clip);
+
         rotatingBack = true;
 
         yield return new WaitForSeconds(10);

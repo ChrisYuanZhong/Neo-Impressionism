@@ -12,6 +12,10 @@ public class Player : MonoBehaviour
     public int collectedPieces = 0;
     public int leversPulled = 0;
 
+    public AudioSource source;
+
+    public AudioClip tappingRock;
+
     public GameObject toggleGlasses;
 
     public GameObject exitButton;
@@ -79,6 +83,7 @@ public class Player : MonoBehaviour
                 {
                     if (hit.transform.gameObject.GetComponent<StatuePiece>().PickedUP() == true)
                     {
+                        source.PlayOneShot(tappingRock);
                         // Collect the Lever
                     }
                 }
