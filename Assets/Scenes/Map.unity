@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 432787814}
-  m_IndirectSpecularColor: {r: 0.9748112, g: 0.56245714, b: 0.07750066, a: 1}
+  m_IndirectSpecularColor: {r: 0.7615911, g: 0.45546296, b: 0.060656417, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4632,51 +4632,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4761751222762897227, guid: 1835cd6b7814c1d499f6c960f57a0875, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1835cd6b7814c1d499f6c960f57a0875, type: 3}
---- !u!1 &418025321
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 418025322}
-  - component: {fileID: 418025323}
-  m_Layer: 0
-  m_Name: 111111 (1)
-  m_TagString: Region
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &418025322
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 418025321}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.02, y: 0, z: -18.19}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1557685224}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &418025323
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 418025321}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.1309204, y: 1.3201542, z: 1}
-  m_Center: {x: 0.41836548, y: -0.1600771, z: 0}
 --- !u!1001 &424947349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19150,7 +19105,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2116161286}
-  - {fileID: 418025322}
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27269,7 +27223,7 @@ GameObject:
   - component: {fileID: 2116161286}
   - component: {fileID: 2116161285}
   m_Layer: 0
-  m_Name: Broke off a piece of what was silent, but eternal
+  m_Name: Tap on the red piece
   m_TagString: Region
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27415,7 +27369,7 @@ Transform:
   - {fileID: 1978107255}
   - {fileID: 1599778164}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2125831046
 PrefabInstance:
