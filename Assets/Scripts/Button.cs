@@ -12,8 +12,6 @@ public class Button : MonoBehaviour
     
     public float fixedSize = .0003f;
 
-    private Image image;
-
     private RectTransform rectTransform;
 
     Quaternion originalRotation;
@@ -23,7 +21,6 @@ public class Button : MonoBehaviour
     {
         originalRotation = transform.rotation;
         rectTransform = GetComponent<RectTransform>();
-        image = GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -44,9 +41,9 @@ public class Button : MonoBehaviour
             image.enabled = true;
         }*/
 
-        if (Vector3.Distance(player.transform.position, transform.position) > showDistance || Vector3.Distance(player.transform.position, transform.position) < 2f)
+        /*if (Vector3.Distance(player.transform.position, transform.position) > showDistance || Vector3.Distance(player.transform.position, transform.position) < 2f)
             image.enabled = false;
         if (Vector3.Distance(player.transform.position, transform.position) < showDistance && Vector3.Distance(player.transform.position, transform.position) > 2f)
-            image.enabled = true;
+            image.enabled = true;*/
     }
 }

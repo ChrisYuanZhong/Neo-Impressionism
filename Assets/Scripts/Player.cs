@@ -166,7 +166,7 @@ public class Player : MonoBehaviour
                 move = false;
                 foreach (GameObject POI in POIs)
                 {
-                    if (Vector3.Distance(POI.transform.position, transform.position) > 2f)
+                    if (Vector3.Distance(POI.transform.position, transform.position) > 2f && Vector3.Distance(POI.transform.position, transform.position) < POI.GetComponentInChildren<Button>().showDistance)
                         POI.SetActive(true);
                 }
             }
