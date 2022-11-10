@@ -14,6 +14,8 @@ public class Player : MonoBehaviour
 
     public GameObject toggleGlasses;
 
+    public GameObject exitButton;
+
     private Vector3 velocity = Vector3.zero;
 
     private bool move = false;
@@ -21,6 +23,12 @@ public class Player : MonoBehaviour
     private Transform destination;
 
     GameObject[] POIs;
+
+    IEnumerator ShowExitButton()
+    {
+        yield return new WaitForSeconds(10);
+        exitButton.SetActive(true);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -98,6 +106,7 @@ public class Player : MonoBehaviour
                             {
                                 POI.SetActive(false);
                             }
+                            StartCoroutine(ShowExitButton());
                         }
                     }
                     else
