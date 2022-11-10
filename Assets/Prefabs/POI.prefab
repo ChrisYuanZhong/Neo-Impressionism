@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  showDistance: 15
+  showDistance: 10
   fixedSize: 0.0003
 --- !u!135 &1144651571012779014
 SphereCollider:

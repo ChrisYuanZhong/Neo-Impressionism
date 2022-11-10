@@ -4877,17 +4877,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.26229122
+      value: 0.12782763
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.26229122
+      value: 0.12782763
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.26229122
+      value: 0.12782763
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
@@ -4967,17 +4967,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13246231
+      value: 0.0645555
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13246231
+      value: 0.0645555
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.13246231
+      value: 0.0645555
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
@@ -5057,17 +5057,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3949455
+      value: 0.19247669
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3949455
+      value: 0.19247669
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3949455
+      value: 0.19247669
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: be53283c09d7d854dbe0efc35ff05c7b,
         type: 3}
