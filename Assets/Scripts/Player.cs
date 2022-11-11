@@ -79,10 +79,9 @@ public class Player : MonoBehaviour
                     {
                         POI.SetActive(false);
                     }
-
                 }
 
-                if (hit.transform.gameObject.CompareTag("Glasses"))
+                else if (hit.transform.gameObject.CompareTag("Glasses"))
                 {
                     source.PlayOneShot(tapping);
                     if (hit.transform.gameObject.GetComponent<Pickup>().PickedUP() == true)
@@ -102,12 +101,12 @@ public class Player : MonoBehaviour
                     }
                 }
 
-                if (hit.transform.gameObject.name == "Pickup Frame_Destination")
+                else if (hit.transform.gameObject.name == "Pickup Frame_Destination")
                 {
-                    source.PlayOneShot(tapping);
                     if (collectedPieces == 3)
                     {
                         // Collect the Glasses
+                        source.PlayOneShot(tapping);
                         StartCoroutine(PickUpGlasses());
                         startPointHint1.GetComponent<GlassesHint>().DisableVFX();
                         Destroy(startPointHint1.GetComponent<GlassesHint>());
@@ -117,23 +116,23 @@ public class Player : MonoBehaviour
                     }
                 }
 
-                if (hit.transform.gameObject.name == "Statue Piece")
+                else if (hit.transform.gameObject.name == "Statue Piece")
                 {
                     source.PlayOneShot(tapping);
                     if (hit.transform.gameObject.GetComponent<StatuePiece>().PickedUP() == true)
                     {
-                        startPointHint1.GetComponent<StatueHint>().DisableVFX();
+                        statueHint.GetComponent<StatueHint>().DisableVFX();
                         Destroy(statueHint.GetComponent<StatueHint>());
                     }
                 }
 
-                if (hit.transform.gameObject.name == "Lever Base")
+                else if (hit.transform.gameObject.name == "Lever Base")
                 {
                     //fade.GetComponent<Fade>().FadeShow();
 
                 }
 
-                if (hit.transform.gameObject.CompareTag("Lever"))
+                else if (hit.transform.gameObject.CompareTag("Lever"))
                 {
                     if (hit.transform.gameObject.GetComponent<Pickup>().PickedUP() == false)
                     {
@@ -163,7 +162,6 @@ public class Player : MonoBehaviour
                             lever.GetComponent<Lever>().isFunctioning = true;
                         }
                     }
-
                 }
             }
         }
@@ -185,7 +183,6 @@ public class Player : MonoBehaviour
                             POI.GetComponent<Button>().SetPos();
                         POI.SetActive(true);
                     }
-
                 }
             }
         }

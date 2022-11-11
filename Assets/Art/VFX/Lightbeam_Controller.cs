@@ -6,7 +6,6 @@ public class Lightbeam_Controller : MonoBehaviour
 {
     public bool on;
     public ParticleSystem sparkle;
-    static float t = 0f;
     public float duration;
     private float blend = 0f;
     // Start is called before the first frame update
