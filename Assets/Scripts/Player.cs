@@ -65,106 +65,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
-        {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-            if (Physics.Raycast(ray, out hit, 100.0f))
-            {
-                if (hit.transform.gameObject.CompareTag("StandPoint"))
-                {
-                    destination = hit.transform;
-                    move = true;
-                    foreach (GameObject POI in POIs)
-                    {
-                        POI.SetActive(false);
-                    }
-                }
-
-                else if (hit.transform.gameObject.CompareTag("Glasses"))
-                {
-                    source.PlayOneShot(tapping);
-                    if (hit.transform.gameObject.GetComponent<Pickup>().PickedUP() == true)
-                    {
-                        collectedPieces++;
-                    }
-
-                    if (collectedPieces == 3)
-                    {
-                        startPointHint1.GetComponent<GlassesHint>().enabled = true;
-                    }
-
-                    if (hit.transform.gameObject.name == "Pickup Lense (1)")
-                    {
-                        startPointHint1.GetComponent<LensHint>().DisableVFX();
-                        Destroy(startPointHint1.GetComponent<LensHint>());
-                    }
-                }
-
-                else if (hit.transform.gameObject.name == "Pickup Frame_Destination")
-                {
-                    if (collectedPieces == 3)
-                    {
-                        // Collect the Glasses
-                        source.PlayOneShot(tapping);
-                        StartCoroutine(PickUpGlasses());
-                        startPointHint1.GetComponent<GlassesHint>().DisableVFX();
-                        Destroy(startPointHint1.GetComponent<GlassesHint>());
-                        Destroy(hit.transform.gameObject);
-                        toggleGlasses.gameObject.SetActive(true);
-                        statueHint.GetComponent<StatueHint>().enabled = true;
-                    }
-                }
-
-                else if (hit.transform.gameObject.name == "Statue Piece")
-                {
-                    source.PlayOneShot(tapping);
-                    if (hit.transform.gameObject.GetComponent<StatuePiece>().PickedUP() == true)
-                    {
-                        statueHint.GetComponent<StatueHint>().DisableVFX();
-                        Destroy(statueHint.GetComponent<StatueHint>());
-                    }
-                }
-
-                else if (hit.transform.gameObject.name == "Lever Base")
-                {
-                    //fade.GetComponent<Fade>().FadeShow();
-
-                }
-
-                else if (hit.transform.gameObject.CompareTag("Lever"))
-                {
-                    if (hit.transform.gameObject.GetComponent<Pickup>().PickedUP() == false)
-                    {
-                        StartCoroutine(hit.transform.gameObject.GetComponent<Lever>().LeverRotation());
-                        if (hit.transform.gameObject.GetComponent<Lever>().isFunctioning)
-                            leversPulled++;
-                        if (leversPulled == 2)
-                        {
-                            // End Scene;
-                            gameObject.GetComponent<Cutscene>().playScene = true;
-                            toggleGlasses.SetActive(false);
-                            foreach (GameObject POI in POIs)
-                            {
-                                POI.SetActive(false);
-                            }
-                            StartCoroutine(ShowExitButton());
-                        }
-                    }
-                    else
-                    {
-                        source.PlayOneShot(tapping);
-
-                        GameObject[] levers = GameObject.FindGameObjectsWithTag("Lever");
-
-                        foreach (GameObject lever in levers)
-                        {
-                            lever.GetComponent<Lever>().isFunctioning = true;
-                        }
-                    }
-                }
-            }
-        }
+            ClickEvents();
 
         if (move == true)
         {
@@ -182,6 +83,108 @@ public class Player : MonoBehaviour
                         if (POI.GetComponent<Button>() != null)
                             POI.GetComponent<Button>().SetPos();
                         POI.SetActive(true);
+                    }
+                }
+            }
+        }
+    }
+
+    private void ClickEvents()
+    {
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+        if (Physics.Raycast(ray, out hit, 100.0f))
+        {
+            if (hit.transform.gameObject.CompareTag("StandPoint"))
+            {
+                destination = hit.transform;
+                move = true;
+                foreach (GameObject POI in POIs)
+                {
+                    POI.SetActive(false);
+                }
+            }
+
+            else if (hit.transform.gameObject.CompareTag("Glasses"))
+            {
+                source.PlayOneShot(tapping);
+                if (hit.transform.gameObject.GetComponent<Pickup>().PickedUP() == true)
+                {
+                    collectedPieces++;
+                }
+
+                if (collectedPieces == 3)
+                {
+                    startPointHint1.GetComponent<GlassesHint>().enabled = true;
+                }
+
+                if (hit.transform.gameObject.name == "Pickup Lense (1)")
+                {
+                    startPointHint1.GetComponent<LensHint>().DisableVFX();
+                    Destroy(startPointHint1.GetComponent<LensHint>());
+                }
+            }
+
+            else if (hit.transform.gameObject.name == "Pickup Frame_Destination")
+            {
+                if (collectedPieces == 3)
+                {
+                    // Collect the Glasses
+                    source.PlayOneShot(tapping);
+                    StartCoroutine(PickUpGlasses());
+                    startPointHint1.GetComponent<GlassesHint>().DisableVFX();
+                    Destroy(startPointHint1.GetComponent<GlassesHint>());
+                    Destroy(hit.transform.gameObject);
+                    toggleGlasses.gameObject.SetActive(true);
+                    statueHint.GetComponent<StatueHint>().enabled = true;
+                }
+            }
+
+            else if (hit.transform.gameObject.name == "Statue Piece")
+            {
+                source.PlayOneShot(tapping);
+                if (hit.transform.gameObject.GetComponent<StatuePiece>().PickedUP() == true)
+                {
+                    statueHint.GetComponent<StatueHint>().DisableVFX();
+                    Destroy(statueHint.GetComponent<StatueHint>());
+                }
+            }
+
+            else if (hit.transform.gameObject.name == "Lever Base")
+            {
+                //fade.GetComponent<Fade>().FadeShow();
+
+            }
+
+            else if (hit.transform.gameObject.CompareTag("Lever"))
+            {
+                if (hit.transform.gameObject.GetComponent<Pickup>().PickedUP() == false)
+                {
+                    StartCoroutine(hit.transform.gameObject.GetComponent<Lever>().LeverRotation());
+                    if (hit.transform.gameObject.GetComponent<Lever>().isFunctioning)
+                        leversPulled++;
+                    if (leversPulled == 2)
+                    {
+                        // End Scene;
+                        gameObject.GetComponent<Cutscene>().playScene = true;
+                        toggleGlasses.SetActive(false);
+                        foreach (GameObject POI in POIs)
+                        {
+                            POI.SetActive(false);
+                        }
+                        StartCoroutine(ShowExitButton());
+                    }
+                }
+                else
+                {
+                    source.PlayOneShot(tapping);
+
+                    GameObject[] levers = GameObject.FindGameObjectsWithTag("Lever");
+
+                    foreach (GameObject lever in levers)
+                    {
+                        lever.GetComponent<Lever>().isFunctioning = true;
                     }
                 }
             }
