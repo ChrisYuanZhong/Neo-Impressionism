@@ -9,7 +9,7 @@ public class Cutscene : MonoBehaviour
     public Material skybox;
 
     static float t = 0f;
-    static float duration = 3000f;
+    static float duration = 2000f;
     private float blend = 0f;
     
     public Material[] mats;
@@ -19,8 +19,11 @@ public class Cutscene : MonoBehaviour
     void Start()
     {
         skybox.SetFloat("_NightLerp", 0);
-    
-    }
+        t = 0f;
+        duration = 2000f;
+        blend = 0f;
+
+}
 
     private void OnApplicationQuit()
     {
